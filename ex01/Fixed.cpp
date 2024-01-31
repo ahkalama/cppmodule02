@@ -20,11 +20,6 @@ Fixed::Fixed(const Fixed& copy)
     std::cout << "Copy constructor called\n"; 
         *this = copy;
 }
-int	Fixed::getRawBits() const 
-{
-	std::cout << "getRawBits member function called\n";
-	return (this->fixed);
-}
 Fixed::~Fixed()
 {
     std::cout << "Destructor called\n";
